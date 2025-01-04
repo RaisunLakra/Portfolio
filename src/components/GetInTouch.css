@@ -1,0 +1,95 @@
+
+.get-in-touch {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.get-in-touch h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.get-in-touch p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.contact-options {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.contact-option {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.contact-option.linkedin {
+  background-color: #0077b5;
+}
+
+.contact-option.github {
+  background-color: #333;
+}
+
+.contact-option.email {
+  background-color: #d14836;
+}
+
+.contact-option:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.resume-download {
+  margin-top: 2rem;
+}
+
+.resume-download p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.download-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #28a745;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.download-link:hover {
+  background-color: #218838;
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-options {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .contact-option {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .download-link {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
