@@ -1,4 +1,3 @@
-import React from "react";
 import "./Navbar.css"; // Include a CSS file for styling
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa"; // For icons
 
@@ -8,10 +7,13 @@ const Navbar = () => {
       {/* Navigation Links */}
       <ul className="nav-links">
         <li>
-          <a href="#home">Home</a>
+          <a href="#Home">Home</a>
         </li>
         <li>
           <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#ResumeOverview">Resume Overview</a>
         </li>
         <li>
           <a href="#projects">Projects</a>

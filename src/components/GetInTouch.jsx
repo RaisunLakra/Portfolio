@@ -1,4 +1,3 @@
-import React from "react";
 import "./GetInTouch.css"; // Include a CSS file for styling
 
 const GetInTouch = () => {
@@ -34,11 +33,12 @@ const GetInTouch = () => {
       </div>
       <div className="resume-download">
         <p>You can also download my resume:</p>
-        <a
+        {/* <a
           href="https://drive.google.com/file/d/189XlHt59dijUFcKP8ao1HT1z8fnksf0d/view?usp=drive_link"
           download
           className="download-link"
-        >
+        > */}
+        <a href="src/assets/ML_Resume.pdf" download className="download-link">
           Download Resume
         </a>
       </div>

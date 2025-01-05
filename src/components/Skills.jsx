@@ -1,4 +1,3 @@
-import React from "react";
 import "./Skills.css"; // Include a CSS file for styling
 
 const Skills = () => {

@@ -1,0 +1,69 @@
+
+.resume-overview {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.resume-overview h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #007bff;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.projects-list ul {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  list-style: disc;
+}
+
+.projects-list a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.projects-list a:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .resume-overview {
+    padding: 1rem;
+  }
+
+  .resume-overview h2 {
+    font-size: 2rem;
+  }
+
+  .section h3 {
+    font-size: 1.25rem;
+  }
+
+  li {
+    font-size: 0.9rem;
+  }
+}
